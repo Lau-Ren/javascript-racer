@@ -1,0 +1,13 @@
+.racer_table td {
+  background-color: orange;
+
+  height: 39px;
+  width: 39px;
+}
+
+.racer_table td.active {
+ background-image:url(moose.png);
+ background-repeat:no-repeat;
+ background-size:39px 39px
+
+}

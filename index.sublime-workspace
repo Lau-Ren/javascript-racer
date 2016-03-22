@@ -1,0 +1,462 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"e",
+				"em	Tag"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"l",
+				"li	Tag"
+			],
+			[
+				"hea",
+				"header	Tag"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"fon",
+				"font-style"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"br",
+				"br"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "insta",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Preferences: Alignment Key Bindings – Default"
+			],
+			[
+				"align",
+				"Preferences: Alignment Key Bindings – User"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"lor",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"sublime",
+				"SublimeLinter: Choose Lint Mode"
+			],
+			[
+				"sublineli",
+				"SublimeLinter: Report (Open Files)"
+			],
+			[
+				"subli",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"lint",
+				"SublimeLinter: Lint This View"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 140.0,
+		"history":
+		[
+			"console.log(hashes)",
+			"var hashes = \"#\"",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/xampp/htdocs/Lau-Ren.github.io/index.html",
+		"/C/xampp/htdocs/sprint-5/eloquent-2.js",
+		"/C/xampp/htdocs/Lau-Ren.github.io/blog/c4-daily-mindfulness.html",
+		"/C/xampp/htdocs/Lau-Ren.github.io/blog-contents.html",
+		"/C/xampp/htdocs/roa-2016/ee/lauren-colls/4-reflection.md",
+		"/C/xampp/htdocs/Lau-Ren.github.io/blog/c3-meditation-process.html",
+		"/C/xampp/htdocs/Lau-Ren.github.io/blog/c2-emotional-intelligence.html",
+		"/C/xampp/htdocs/Lau-Ren.github.io/blog/c1-time-and-habits-blog.html",
+		"/C/xampp/htdocs/Lau-Ren.github.io/blog/t4-javascript-basics.html",
+		"/C/xampp/htdocs/Lau-Ren.github.io/blog/t2-html-css-dom-p1.html",
+		"/C/xampp/htdocs/Lau-Ren.github.io/blog/t2-html-css-dom-p2.html",
+		"/C/xampp/htdocs/Lau-Ren.github.io/blog/t3-design-to-web-blog.html",
+		"/C/xampp/htdocs/Lau-Ren.github.io/blog/c1-reflection-blog.html",
+		"/C/xampp/htdocs/Lau-Ren.github.io/style/main.css",
+		"/C/xampp/htdocs/sprint-4/invert-regular-expression-matches.js",
+		"/C/xampp/htdocs/Bella/index.html",
+		"/C/xampp/htdocs/Bella/index.xml",
+		"/C/xampp/htdocs/roa-2016/ee/lauren-colls/3-reflection.md",
+		"/C/xampp/htdocs/Lau-Ren.github.io/blog/blog-template.html",
+		"/C/xampp/htdocs/Blog/index.html",
+		"/C/xampp/htdocs/Anytime-ComputersV2/index.html",
+		"/C/xampp/htdocs/sprint-3/personal-site-design.md",
+		"/C/xampp/htdocs/sprint-3/skeleton.md",
+		"/c/xampp/htdocs/curriculum/curriculum",
+		"/C/xampp/htdocs/sprint-2/pristine-zen-garden.html",
+		"/c/xampp/htdocs/sprint-2/sprint-2",
+		"/C/xampp/htdocs/Lau-Ren.github.io/main.css",
+		"/C/Users/Lauren/AppData/Roaming/Sublime Text 3/Packages/User/Base File.sublime-settings",
+		"/C/Users/Lauren/AppData/Roaming/Sublime Text 3/Packages/User/JSON.sublime-settings",
+		"/C/Users/Lauren/AppData/Roaming/Sublime Text 3/Packages/Alignment/Default (Windows).sublime-keymap",
+		"/C/Users/Lauren/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Lauren/AppData/Roaming/Sublime Text 3/Packages/Terminal/Base File.sublime-settings",
+		"/C/Users/Lauren/Documents/GitHub/Lau-Ren.github.io/README.md",
+		"/C/Users/Lauren/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/xampp/htdocs/Bryson/css/main.css",
+		"/C/xampp/htdocs/Bryson/js/jquery.superslides.js",
+		"/C/xampp/htdocs/Bryson/css/superslides.css",
+		"/C/xampp/htdocs/Bryson/index.html",
+		"/C/Users/Lauren/Documents/GitHub/Lau-Ren.github.io/style/main.css",
+		"/C/Users/Lauren/Downloads/superslides-0.6.2/superslides-0.6.2/examples/simple.html",
+		"/C/xampp/htdocs/Portfolio/template/header.html",
+		"/C/xampp/htdocs/Portfolio/template/footer.html",
+		"/C/xampp/htdocs/Portfolio/partials/contact",
+		"/C/xampp/htdocs/Portfolio/js/Controllers/MainController.js",
+		"/C/xampp/htdocs/Rooney/index.html",
+		"/C/xampp/htdocs/Rooney/css/videostyle.css",
+		"/C/xampp/htdocs/Rooney/LIcode",
+		"/C/xampp/htdocs/Anytime-ComputersV2/js/main.js",
+		"/C/xampp/htdocs/Anytime-ComputersV2/css/main.css",
+		"/C/xampp/htdocs/Anytime-ComputersV2/partials/about.html",
+		"/C/xampp/htdocs/Anytime-ComputersV2/partials/pricing.html",
+		"/C/xampp/htdocs/Anytime-ComputersV2/partials/contact.html",
+		"/C/xampp/htdocs/Anytime-ComputersV2/templates/header.html",
+		"/C/xampp/htdocs/Anytime-ComputersV2/partials/location.html",
+		"/C/xampp/htdocs/Anytime-ComputersV2/templates/footer.html",
+		"/C/Users/Lauren/Downloads/cv-template/CV-Template/style.css",
+		"/C/Users/Lauren/Downloads/cv-template/CV-Template/index.html",
+		"/C/xampp/htdocs/Rooney/video.html",
+		"/C/xampp/htdocs/Rooney/js/jquery.superslides-texthash.js",
+		"/C/xampp/htdocs/Rooney/js/beast.js",
+		"/C/xampp/htdocs/Rooney/css/main.css",
+		"/C/xampp/htdocs/Rooney/js/plugins.js",
+		"/C/xampp/htdocs/Rooney/js/vendor/modernizr-2.6.2.min.js",
+		"/C/xampp/htdocs/Rooney/css/cvstyle.css",
+		"/C/xampp/htdocs/Rooney/partials/cv.html",
+		"/C/Users/Lauren/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/README.md",
+		"/C/xampp/htdocs/Rooney/partials/about.html",
+		"/C/xampp/htdocs/Rooney/projectcode.html",
+		"/C/xampp/htdocs/Rooney/templates/footer.html",
+		"/C/xampp/htdocs/Rooney/templates/header.html",
+		"/C/Users/Lauren/Documents/GitHub/Rooney/index.html"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"t3-desi",
+			"index",
+			"..",
+			"intell",
+			"insta",
+			"git",
+			"github",
+			"blog-contents.html",
+			"index-dr",
+			"href",
+			"h5",
+			"images",
+			"index",
+			"rbg",
+			"non",
+			"row",
+			"border",
+			"none",
+			"hover",
+			"flex",
+			"laure",
+			"media",
+			"auto",
+			"src",
+			"image",
+			"src",
+			"images",
+			"imgs",
+			"<cr",
+			"hove",
+			"<HEAD>",
+			"</footer",
+			"min-he",
+			"contai",
+			"<body>",
+			"</footer>",
+			"combonation",
+			"lauren\"",
+			"img",
+			"blogBody",
+			"blogHeading",
+			"siteIndex",
+			"EDA",
+			"eda",
+			"li",
+			"href",
+			"EDA ",
+			"Time and Habits",
+			"Reflections",
+			"Contact",
+			"eda Blog",
+			"EDA",
+			"padding",
+			"list",
+			"position: relative; overflow: hidden;",
+			"position: relative;",
+			"style=\"/* position: relative; */ ",
+			"style=\"/* position: relative; */ overflow: hidden; width: 100%; height: 387px;\"",
+			"\".slides\"",
+			"\".slides",
+			"\".#slides",
+			"\"#slides",
+			"\"slides",
+			"#slides",
+			"position",
+			"#slides",
+			"slides ",
+			"slides",
+			"#slide",
+			"element.style",
+			"pagination",
+			"#slides",
+			"ID",
+			"id",
+			"Modernizr",
+			"vim",
+			"hover",
+			"none",
+			"contai",
+			"size",
+			"border-right",
+			"//",
+			"black",
+			"body",
+			"header",
+			"pagin",
+			"pagination",
+			"infoclose",
+			"infoClose",
+			"project-nav",
+			"border-r",
+			"border",
+			"hover",
+			"slides",
+			"fadeIn",
+			"reveal",
+			"info",
+			"hover",
+			"logo",
+			"mouse",
+			"header')",
+			"beast",
+			"function",
+			"ready",
+			"header",
+			"first-child",
+			"drawer",
+			"peek",
+			"hover",
+			"reveal",
+			"header",
+			"content",
+			"google ",
+			"google",
+			"hover",
+			"vertical-alig",
+			"hr",
+			"middle",
+			"center",
+			"none",
+			"li ",
+			"li",
+			"current",
+			"hover",
+			"li ",
+			"project-tit",
+			"coal",
+			"  "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"em",
+			"images",
+			"blog-body",
+			"blog-heading",
+			"site-index",
+			"time and habits",
+			"reflections",
+			"contact",
+			"EDA Blog",
+			"eda",
+			"black",
+			"white",
+			"okewa",
+			"GP-zoobrews",
+			"wool-runners"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 93.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
