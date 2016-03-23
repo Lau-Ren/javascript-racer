@@ -18,3 +18,13 @@
  background-size:39px 39px
 
 }
+
+ div {
+display: block;
+background-color: yellow;
+ }
+
+ .hide {
+	display: none;
+
+}
