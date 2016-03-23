@@ -9,53 +9,60 @@ var play = document.addEventListener('keyup', updatePlayerPosition);
 	function updatePlayerPosition(){
 
 		if (event.which === 90) {
+
 			if (player1Strip[position1].className ===""){
+				
 				console.log(player1Strip[position1].className)
 				player1Strip[position1].className = "active"
 				player1Strip[position1-1].className = ""
 				position1 += 1
+
 			} else if (player1Strip[position1].className === "finish") {
+				
 				console.log(player1Strip[position1].className)
-				// player1Strip[position1].className = "active"
 				player1Strip[position1-1].className = ""
 				alert("congratulations Player 1, you are the winner!")
 				restart = confirm("play again?")
+
 				if (restart) {
 					restartGame()
-
+				}else {
+					play = document.removeEventListener('keyup', updatePlayerPosition);
 				}
 			}
 
 		} else if (event.which === 77) {
+
 			if (player2Strip[position2].className ===""){
+				
 				console.log(player2Strip[position2].className)
 				player2Strip[position2].className = "active"
 				player2Strip[position2-1].className = ""
 				position2 += 1
+
 			} else if (player1Strip[position2].className === "finish") {
+				
 				console.log(player2Strip[position2].className)
-				// player1Strip[position1].className = "active"
 				player2Strip[position2-1].className = ""
 				alert("congratulations Player 2, you are the winner!")
 				restart = confirm("play again?")
+
 				if (restart) {
 					restartGame()
-
+				}else {
+					play = document.removeEventListener('keyup', updatePlayerPosition);
 				}
 			}
 		}
-
-
 	}
-
 
 	function restartGame() {
 		position1 =1
 		position2 =1
 
-		for (var i = 1; i < player1Strip.length; i++ ){
-		player1Strip[position1].className = ""
-		player2Strip[position2].className = ""	
+		for (var i = 1; i < player1Strip.length -1; i++ ){
+		player1Strip[i].className = ""
+		player2Strip[i].className = ""	
 		player1Strip[0].className = "active"	
 		player2Strip[0].className = "active"	
 		restart = false
