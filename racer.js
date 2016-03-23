@@ -1,10 +1,36 @@
 document.addEventListener('DOMContentLoaded', function() {
+
+
 var restart= false
 var position1 =1
 var position2 =1;
-var player1Strip = document.querySelectorAll('#player1_strip td')
-var player2Strip = document.querySelectorAll('#player2_strip td')
+
+
 var play = document.addEventListener('keyup', updatePlayerPosition);
+
+var lengthOfTrack = prompt("length of race course?") 
+var strips = document.querySelectorAll('tr')
+
+
+// for the number of strips
+for (var j = 0; j < strips.length; j++) { 
+	console.log("j")
+
+// for the number of squares the length should be	
+	for ( var k = 0; k < lengthOfTrack; k++){
+		var square = document.createElement('td')
+		
+		strips[j].appendChild(square)
+			console.log("k")
+		}
+		square.className = "finish"
+
+	}
+
+	var player1Strip = document.querySelectorAll('#player1_strip td')
+var player2Strip = document.querySelectorAll('#player2_strip td')
+
+
 
 	function updatePlayerPosition(){
 
@@ -65,9 +91,10 @@ var play = document.addEventListener('keyup', updatePlayerPosition);
 		player2Strip[i].className = ""	
 		player1Strip[0].className = "active"	
 		player2Strip[0].className = "active"	
-		restart = false
-		}
 
+		restart = false
+		};
+	
 
 	}
 
