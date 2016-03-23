@@ -1,3 +1,21 @@
+body {
+width: 90%;
+margin: auto;
+
+}
+
+
+.heading h1{
+	text-align: center;
+
+}
+.racer_table {
+
+margin: auto;
+
+}
+
+
 .racer_table td {
   background-color: orange;
 
@@ -26,12 +44,7 @@
 
 }
 
- div {
-display: block;
-background-color: yellow;
- }
 
- .hide {
-	display: none;
-
+div {
+	text-align: center;
 }

@@ -1,37 +1,16 @@
 document.addEventListener('DOMContentLoaded', function() {
 
-
 var restart= false
 var position1 =1
 var position2 =1;
-
-
 var play = document.addEventListener('keyup', updatePlayerPosition);
-
-var lengthOfTrack = prompt("length of race course?") 
+var lengthOfTrack  
 var strips = document.querySelectorAll('tr')
-
-
-// for the number of strips
-for (var j = 0; j < strips.length; j++) { 
-	console.log("j")
-
-// for the number of squares the length should be	
-	for ( var k = 0; k < lengthOfTrack; k++){
-		var square = document.createElement('td')
-		
-		strips[j].appendChild(square)
-			console.log("k")
-		}
-		square.className = "finish"
-
-	}
-
-	var player1Strip = document.querySelectorAll('#player1_strip td')
+var player1Strip = document.querySelectorAll('#player1_strip td')
 var player2Strip = document.querySelectorAll('#player2_strip td')
 
 
-
+restartGame()
 	function updatePlayerPosition(){
 
 		if (event.which === 90) {
@@ -47,7 +26,7 @@ var player2Strip = document.querySelectorAll('#player2_strip td')
 				
 				console.log(player1Strip[position1].className)
 				player1Strip[position1-1].className = ""
-				alert("congratulations Player 1, you are the winner!")
+				alert("Congratulations Moose, you are the winner! Please enjoy your kale smoothie")
 				restart = confirm("play again?")
 
 				if (restart) {
@@ -70,7 +49,7 @@ var player2Strip = document.querySelectorAll('#player2_strip td')
 				
 				console.log(player2Strip[position2].className)
 				player2Strip[position2-1].className = ""
-				alert("congratulations Player 2, you are the winner!")
+				alert("Congratulations Kangaroo, you are the winner! Please enjoy your kale smoothie")
 				restart = confirm("play again?")
 
 				if (restart) {
@@ -83,6 +62,24 @@ var player2Strip = document.querySelectorAll('#player2_strip td')
 	}
 
 	function restartGame() {
+		lengthOfTrack = prompt("length of race course?") 
+
+		 if (lengthOfTrack === "") {
+		 	lengthOfTrack = 10
+		 }
+			// for the number of strips
+			for (var j = 0; j < strips.length; j++) { 
+				// for the number of squares the length should be	
+				for ( var k = 0; k < lengthOfTrack; k++){
+					var square = document.createElement('td')
+					strips[j].appendChild(square)
+				}
+				square.className = "finish"
+			}
+
+		player1Strip = document.querySelectorAll('#player1_strip td')
+		player2Strip = document.querySelectorAll('#player2_strip td')
+
 		position1 =1
 		position2 =1
 
