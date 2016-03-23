@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
   console.log("document ready")
 
 
-
+var position = 1
 var player1Strip = document.querySelectorAll('#player1_strip td')
 var player2Strip = document.querySelectorAll('#player2_strip td')
 document.addEventListener('keyup', updatePlayerPosition);
@@ -21,21 +21,25 @@ if (event.which === 90) {
 	var player = player2Strip
 }
 
-for (var i = 1; i < player.length; i++) {
-	if 	(player[i].className === "active") {
-	player[i].className = ""
+player[position].className = "active"
+position += 1
 
 
-	} else {
-player[i].className += "active"
-		
-	}
+// for (var i = 1; i < player.length; i++) {
+// 	if 	(player[i].className === "active") {
+// 	player[i].className = ""
+
+
+// 	} else {
+// player[i].className += "active"
+
+// 	}
 
 
 
-break
+// break
 
-}
+// }
 
 
 }
