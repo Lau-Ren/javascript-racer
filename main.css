@@ -11,3 +11,10 @@
  background-size:39px 39px
 
 }
+
+.racer_table td.finish {
+ background-image:url(kale.png);
+ background-repeat:no-repeat;
+ background-size:39px 39px
+
+}
