@@ -24,13 +24,13 @@ margin: auto;
 }
 
 .racer_table #player1_strip td.active {
- background-image:url(moose.png);
+ background-image:url(../images/moose.png);
  background-repeat:no-repeat;
  background-size:39px 39px
 
 }
 .racer_table #player2_strip td.active {
- background-image:url(kangaroo.png);
+ background-image:url(../images/kangaroo.png);
  background-repeat:no-repeat;
  background-size:39px 39px
 
@@ -38,7 +38,7 @@ margin: auto;
 
 
 .racer_table td.finish {
- background-image:url(kale.png);
+ background-image:url(../images/kale.png);
  background-repeat:no-repeat;
  background-size:39px 39px
 
